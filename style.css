@@ -1,0 +1,22 @@
+/* Style from frontend challenge  */
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+/* My custom css */
+body {
+    background-color: hsl(233, 47%, 7%);
+    color: white; /* Temp color */ 
+}
+
+.container {
+    border-style: solid; 
+    display: flex;
+    flex-direction: row;
+}
+
