@@ -34,15 +34,15 @@ body {
     font-family: var(--second-font);
 }
 
+main {
+    padding-top:5%;
+}
+
 .container {
     background-color: var(--card-background-color);
-    /* border-style: solid; */
     border-radius: 12px;
     display: flex;
     flex-direction: row-reverse;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 4%;
     margin-bottom: 2%;
     height: 430px;
     width: 1108px;
@@ -60,6 +60,7 @@ body {
     color: var(--main-heading-and-stat-color);
     margin-right: -50px;
     font-size: 16px;
+    padding-right: 150px;
 }
 
 .paragraph {
@@ -142,9 +143,22 @@ body {
         /* margin-left: 35%; */
     }
     .element-left {
+        margin-top: -0.07px;
         width: 360px;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 0px;
+        align-items: center;
+        margin-bottom: 30px;
+        margin-right: 0px;
+    }
+
+    .head-title {
+        margin-right: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .element-left h1 {
+        text-align: center;
     }
 
     .purple {
@@ -157,11 +171,35 @@ body {
 
     .element-right {
         background-image: url('/images/image-header-mobile.jpg');
+        background-size: contain;
         width: 360px;
         height: 240px;
         border-top-left-radius: 12px;
         border-bottom-right-radius: 0px;
         border-top-right-radius: 12px;
     }   
+
+    .paragraph {
+        text-align: center;
+        padding-right: 0px;
+        margin-right: 0px;
+        padding-left: 35px;
+        padding-right: 35px;
+        font-size: 15px;
+        font-family: var(--second-font);
+        margin-bottom: 0px;
+    }
+
+    .all-stats {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .e-element {
+        text-align: center;
+        margin-right: 0px;
+    }
 
 }
